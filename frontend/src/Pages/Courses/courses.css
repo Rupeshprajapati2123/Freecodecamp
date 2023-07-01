@@ -1,0 +1,23 @@
+.courses-page {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+.courses-page h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.courses-page p {
+  font-size: 1rem;
+  text-align: center;
+}
+.courses-page p span {
+  font-style: italic;
+}
+.courses-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}

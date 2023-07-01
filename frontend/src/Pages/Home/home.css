@@ -1,0 +1,43 @@
+.home-body {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 600px;
+}
+.home-body-text {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.home-body-text span {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.home-body-text-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.home-body-text-2 p {
+  font-size: 1.25rem;
+}
+.home-body-tags {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  align-items: center;
+  font-size: 2rem;
+}
+.home-sign {
+  background-color: #feac32;
+  cursor: pointer;
+  font-size: 1.125rem;
+  line-height: 100%;
+  color: #0a0a23;
+  padding: 1em 2em;
+  transition: all 0.2s ease-in-out;
+  align-self: center;
+}
+.home-sign:hover {
+  background-color: #febe5f;
+}

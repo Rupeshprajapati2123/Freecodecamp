@@ -1,0 +1,78 @@
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background-color: #0a0a23;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.nav-searchbar {
+  width: 300px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 4px 8px;
+  background-color: #3b3b4f;
+  color: rgba(255, 255, 255, 0.65);
+}
+.nav-searchbar input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 1);
+}
+.nav-searchbar input::placeholder {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.65);
+}
+.nav-logo {
+  width: 210px;
+}
+.nav-btns {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 300px;
+}
+.nav-secondary-cta {
+  background-color: #0a0a23;
+  border: 1px solid #fff;
+  cursor: pointer;
+  font-size: 1.125rem;
+  line-height: 100%;
+  color: #fff;
+  padding: 0.5em 1em;
+  transition: all 0.2s ease-in-out;
+}
+.nav-secondary-cta:hover {
+  color: #0a0a23;
+  background-color: #fff;
+}
+.nav-primary-cta {
+  background-color: #feac32;
+  cursor: pointer;
+  font-size: 1.125rem;
+  line-height: 100%;
+  color: #0a0a23;
+  padding: 0.5em 1em;
+  transition: all 0.2s ease-in-out;
+}
+.nav-primary-cta:hover {
+  background-color: #febe5f;
+}
+.navMin {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background-color: #0a0a23;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
